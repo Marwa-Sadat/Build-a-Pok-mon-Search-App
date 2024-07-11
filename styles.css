@@ -10,20 +10,14 @@
 
 body {
   line-height: 1.5;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1b1b32;
+  color: #0a0a23;
 }
 
 img {
   display: block;
-}
-
-
-
-body {
-  height: 100vh;
-  font-family: sans-serif;
-  background-color: #1b1b32;
-  color: #0a0a23;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -50,7 +44,7 @@ h1 {
   background-color: #f5f6f7;
   border: 1px solid #f5f6f7;
   border-radius: 15px;
-  box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+  box-shadow: 10px 10px 0 0 rgba(223, 220, 220, 0.75);
 }
 
 .output,
@@ -71,15 +65,14 @@ label {
   align-self: center;
 }
 
-#search-input:focus-visible,
-#search-button:focus-visible {
-  outline: 3px solid #198eee;
-}
-
 #search-input {
   height: 40px;
   padding-left: 10px;
   width: 200px;
+}
+
+#search-input:focus-visible {
+  outline: 3px solid #198eee;
 }
 
 #search-button {
@@ -90,6 +83,10 @@ label {
   background-color: #7f21ab;
   color: #f5f6f7;
   border: none;
+}
+
+#search-button:focus-visible {
+  outline: 3px solid #198eee;
 }
 
 .output {
@@ -158,18 +155,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  font-size: 1 rem;
+  font-size: 1rem;
   color: #f5f6f7;
   background-color: #7f21ab;
-}
-
-th:nth-child(even),
-td:nth-child(even) {
-  border-left: 5px solid #f5f6f7;
-}
-
-tr {
-  border-bottom: 5px solid #f5f6f7;
 }
 
 td,
@@ -178,7 +166,14 @@ th {
   padding: 8px;
 }
 
+td:nth-child(even),
+th:nth-child(even) {
+  border-left: 5px solid #f5f6f7;
+}
 
+tr {
+  border-bottom: 5px solid #f5f6f7;
+}
 
 .normal {
   background-color: #b7b7aa;
