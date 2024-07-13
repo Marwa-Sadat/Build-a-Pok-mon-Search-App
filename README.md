@@ -18,7 +18,7 @@ The Pokémon Search App is a web application that allows users to search for the
 
 ## Installation
 
-Follow the steps below to install and run the Build a Cash Register on your local machine.
+Follow the steps below to install and run the Pokémon Search App on your local machine.
 
 ### Prerequisites
 
@@ -28,12 +28,12 @@ Follow the steps below to install and run the Build a Cash Register on your loca
 
 1. **Clone the Repository**:
   bash
-  git clone https://github.com/Marwa-Sadat/CashRegister-_App.git
-  cd Build a Cash Register
+  git clone https://github.com/Marwa-Sadat/Build-a-Pok-mon-Search-App.git
+  cd Pokémon Search App
   
 ## Usage
 
-After installation, you can use the Build a Cash Register as follows:
+After installation, you can use the Pokémon Search App as follows:
 
 1. *Run the Program*:
   Open index.html from the root folder in your web browser.
@@ -42,11 +42,11 @@ After installation, you can use the Build a Cash Register as follows:
   Enter the string you want to check when prompted.
 
 3. **View the Result**:
-The program will output whether the given string is a Build a Cash Register or not.
+The program will output whether the given string is a Build a Pokémon Search App or not.
 
 ## Demo
 
-![Demo](https://github.com/Marwa-Sadat/CashRegister-_App/assets/168111110/e63a8a6e-42b2-4a51-b17b-1eb6e1eb16bc)
+![Demo](https://github.com/user-attachments/assets/87f52732-3663-41be-92fd-4450cc1badd1)
 ## Contributing
 
 We welcome contributions to this project! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request. Follow the steps below to contribute:
@@ -56,13 +56,13 @@ We welcome contributions to this project! If you have an idea for a new feature 
 
 2. **Clone Your Fork**:
   bash
-  git clone https://github.com/Marwa-Sadat/Build a Cash Register.git
-  cd Build a Cash Register
+  git clone https://github.com/Marwa-Sadat/Build-a-Pok-mon-Search-App.git
+  cd Pokémon Search App
   
 
 3. **Create a New Branch**:
   bash
-  git checkout -b feature/TBuild a Cash Register
+  git checkout -b feature/Pokémon Search App
   
 
 4. **Make Your Changes**:
@@ -75,7 +75,7 @@ We welcome contributions to this project! If you have an idea for a new feature 
 
 6. **Push to Your Fork**:
   bash
-  git push origin feature/Build a Cash Register
+  git push origin feature/Pokémon Search App
   
 
 7. **Open a Pull Request**:
